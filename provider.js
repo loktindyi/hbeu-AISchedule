@@ -2,7 +2,7 @@ function scheduleHtmlProvider() {
   var kbtable = document.getElementById('kblist_table')
   if (!kbtable) alert(`
           没有获取到课表哦
-          反馈群: 884813590
+          反馈群: xxxxxxxxx
           -------
           导入流程：
            >> 输入账号密码
