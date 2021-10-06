@@ -32,7 +32,7 @@ const generateSectionTimes = me => {
  * @param {string} weekStr - 周次字符串
  * @param {string|RegExp} remove - 需要去掉的字符串
  * @param {string|RegExp} separator - 使用...分割多个周区间
- * @param {string|RegExp} separator - 使用...分割周区间内周起始与结束
+ * @param {string|RegExp} secondSeparator - 使用...分割周区间内周起始与结束
  * @returns {Array} 周次数组
  */
 const getWeeks = ({ weekStr, remove = /周/g, separator = ',', secondSeparator = '-' }) => {
